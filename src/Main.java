@@ -86,6 +86,9 @@ public class Main {
                     }
                     break;
                 case 5:
+                    System.out.println("current song has been removed from playlist");
+                    wasNext = false;
+                    itr.remove();
                     break;
                 case 6:
                     printsong(myPlayList);
